@@ -2,6 +2,6 @@
 
 ![image](OPDU_title.png)
 
-Example of MICP-Analytics
+**Example of MICP-Analytics:**
 
 ![image2](MICP.png)
