@@ -4,4 +4,4 @@
 
 Example of MICP-Analytics
 
-![image](MICP.png)
+![image2](MICP.png)
