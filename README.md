@@ -14,10 +14,11 @@ a) This method implements the approach proposed by **Xu and Torres-Verdin (1)**,
 
 >![image](Gaussian.png)
 
-b) Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a spreadsheet and processes each sample, one at a time, saving both the plots as and Gaussian fit parameters.
+b) Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the plots as and Gaussian fit parameters.
 
->*Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Gaussian fit parameter data.*
+*We have used 35 samples from Chicheng's HPMI data for this example. This process runs well, but we need to work on a better error routine to be able to save only the best data if we choose this option. We also need to supply the logic to solve for only a single pore system mu1, sigma1 with w1 = 1.*
 
+[Run in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver7_full_auto_GitHub.ipynb)
 
 
 **Method 2: Thomeer Hyperbola (2)**
