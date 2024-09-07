@@ -16,7 +16,7 @@ This method implements the approach proposed by **Xu and Torres-Verdin (1)**, us
 
 
 
-**Method 2: Thomeer Hyperboal(2)**
+**Method 2: Thomeer Hyperbola(2)**
 
 The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI Capillary Pressure data to derive three key parameters per pore system. This method was the foundation of **Clerke’s (3)** work, which provided a full pore system characterization for the Arab D complex carbonate reservoirs in Saudi Arabia. An interactive Jupyter Notebook for defining the Thomeer parameters is available, although it requires Python's qt and therefore cannot be run in Colab. The notebook and associated data can be downloaded and executed in a local Python environment:
 
@@ -26,7 +26,7 @@ The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI
 
 
 
-**Example of MICP-Analytics:**
+**Example of a Comprehensive MICP-Analytics Assessment of Data:**
 
 >![image2](MICP.png)
 
