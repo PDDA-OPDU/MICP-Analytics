@@ -10,7 +10,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 a) This method implements the approach proposed by **Xu and Torres-Verdin (1)**, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
 
-[Run in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
+[Run Alpha Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
 
 >![image](Gaussian.png)
 
@@ -18,7 +18,7 @@ b) Using the same Gaussian Density Function, we offer a fully automated Jupyter 
 
 *We have used 35 samples from Chicheng's HPMI data for this example. This process runs well, but we need to work on a better error routine to be able to save only the best data if we choose this option. We also need to supply the logic to solve for only a single pore system mu1, sigma1 with w1 = 1.*
 
-[Run in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver7_full_auto_GitHub.ipynb)
+[Run Alpha Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver7_full_auto_GitHub.ipynb)
 
 
 **Method 2: Thomeer Hyperbola (2)**
