@@ -20,6 +20,8 @@ b) Using the same Gaussian Density Function, we offer a fully automated Jupyter 
 
 [Run Alpha Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver7_full_auto_GitHub.ipynb)
 
+>![image](Gaussian_Auto_Chicheng.gif)
+
 
 **Method 2: Thomeer Hyperbola (2):**
 
