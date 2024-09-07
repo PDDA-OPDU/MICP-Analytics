@@ -16,7 +16,7 @@ a) This method implements the approach proposed by **Xu and Torres-Verdin (1)**,
 
 b) Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a spreadsheet and processes each sample, one at a time, saving both the plots as and Gaussian fit parameters.
 
-      *Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Gaussian fit parameter data.*
+>*Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Gaussian fit parameter data.*
 
 
 
@@ -28,7 +28,7 @@ The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI
 
 >![image](Thomeer_Parameter_fitting.gif)
 
-      *Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Thomeer parameters.*
+>*Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Thomeer parameters.*
 
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
