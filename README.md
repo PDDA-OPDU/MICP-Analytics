@@ -7,6 +7,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **Method 1: Gaussian Density Function(1)**
 This method implements the approach proposed by **Xu and Torres-Verdin (1)**, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
+
 [Run in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
 
 >![image](Gaussian.png)
@@ -14,9 +15,10 @@ This method implements the approach proposed by **Xu and Torres-Verdin (1)**, us
 
 **Method 2: Thomeer Hyperboal(2)**
 The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI Capillary Pressure data to derive three key parameters per pore system. This method was the foundation of **Clerke’s (3)** work, which provided a full pore system characterization for the Arab D complex carbonate reservoirs in Saudi Arabia. An interactive Jupyter Notebook for defining the Thomeer parameters is available, although it requires Python's qt and therefore cannot be run in Colab. The notebook and associated data can be downloaded and executed in a local Python environment:
+
 [Download Notebook](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_from_Clerke_spreadsheet/Thomeer_from_Pc_curve_fit_auto-use-picks-Auto-Put_on_GitHub_read_Edspreadsheet_ver2.ipynb)
 
->![image](Thomeer_Parameter_fitting.png)
+>![image](Thomeer_Parameter_fitting.gif)
 
 
 
