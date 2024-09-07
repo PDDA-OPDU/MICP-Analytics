@@ -29,7 +29,7 @@ The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI
 
 >![image](Thomeer_Parameter_fitting.gif)
 
->*Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Thomeer parameters.*
+>*We will use all of the HPMI data from Chicheng's spreadsheet to run in this Notebook to acquire the Thomeer parameters for each sample.*
 
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
