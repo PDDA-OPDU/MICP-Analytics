@@ -6,17 +6,21 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 
 
-**Method 1: Gaussian Density Function(1)**
+**Method 1: Gaussian Density Function (1)**
 
-This method implements the approach proposed by **Xu and Torres-Verdin (1)**, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
+a) This method implements the approach proposed by **Xu and Torres-Verdin (1)**, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
 
 [Run in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
 
 >![image](Gaussian.png)
 
+b) Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a spreadsheet and processes each sample, one at a time, saving both the plots as and Gaussian fit parameters.
+
+*Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Gaussian fit parameter data.*
 
 
-**Method 2: Thomeer Hyperbola(2)**
+
+**Method 2: Thomeer Hyperbola (2)**
 
 The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI Capillary Pressure data to derive three key parameters per pore system. This method was the foundation of **Clerke’s (3)** work, which provided a full pore system characterization for the Arab D complex carbonate reservoirs in Saudi Arabia. An interactive Jupyter Notebook for defining the Thomeer parameters is available, although it requires Python's qt and therefore cannot be run in Colab. The notebook and associated data can be downloaded and executed in a local Python environment:
 
@@ -24,6 +28,7 @@ The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI
 
 >![image](Thomeer_Parameter_fitting.gif)
 
+*Need to segregate into a single row of all of the HPMI data from Chicheng's spreadsheet so that the Notebook can run all of the data highlighting how MICP-Analytics can offer users easy to use methods to acquire their Thomeer parameters.*
 
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
