@@ -25,13 +25,13 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **Method 2: Thomeer Hyperbola (2):**
 
-The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI Capillary Pressure data to derive three key parameters per pore system. This method was the foundation of **Clerke’s (3)** work, which provided a full pore system characterization for the Arab D complex carbonate reservoirs in Saudi Arabia. An interactive Jupyter Notebook for defining the Thomeer parameters is available, although it requires Python's qt and therefore cannot be run in Colab. The notebook and associated data can be downloaded and executed in a local Python environment:
+**a)** The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI Capillary Pressure data to derive three key parameters per pore system. This method was the foundation of **Clerke’s (3)** work, which provided a full pore system characterization for the Arab D complex carbonate reservoirs in Saudi Arabia. An interactive Jupyter Notebook for defining the Thomeer parameters is available, although it requires Python's qt and therefore cannot be run in Colab. The notebook and associated data can be downloaded and executed in a local Python environment:
 
 [Download Notebook](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_from_Clerke_spreadsheet/Thomeer_from_Pc_curve_fit_auto-use-picks-Auto-Put_on_GitHub_read_Edspreadsheet_ver2.ipynb)
 
 >![image](Thomeer_Parameter_fitting.gif)
 
->*We will use all of the HPMI data from Chicheng's spreadsheet to run in this Notebook to acquire the Thomeer parameters for each sample in an automated method.*
+**b)** *We will use all of the HPMI data from Chicheng's spreadsheet to run in this Notebook to acquire the Thomeer parameters for each sample in an automated method.*
 
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
