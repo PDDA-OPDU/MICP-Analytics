@@ -8,13 +8,13 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **Method 1: Gaussian Density Function (1):**
 
-a) This method implements the approach proposed by **Xu and Torres-Verdin (1)**, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
+**a)** This method implements the approach proposed by **Xu and Torres-Verdin (1)**, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
 
 [Run Alpha Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
 
 >![image](Gaussian.png)
 
-b) Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
+**b)** Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
 
 *We have used 35 samples from Chicheng's HPMI data for this example. This process runs well, but we need to work on a better error routine to be able to save only the best data if we choose this option. We also need to supply the logic to solve for only a single pore system mu1, sigma1 with w1 = 1.*
 
@@ -31,7 +31,7 @@ The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI
 
 >![image](Thomeer_Parameter_fitting.gif)
 
->*We will use all of the HPMI data from Chicheng's spreadsheet to run in this Notebook to acquire the Thomeer parameters for each sample.*
+>*We will use all of the HPMI data from Chicheng's spreadsheet to run in this Notebook to acquire the Thomeer parameters for each sample in an automated method.*
 
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
