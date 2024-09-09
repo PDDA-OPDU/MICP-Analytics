@@ -23,7 +23,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 >![image](Gaussian_Auto_Chicheng.gif)
 
 
-**Method 2: Thomeer Hyperbola (2):**
+**Method 2: Thomeer Hyperbola *(2)*:**
 
 **a)** The second method uses the **Thomeer (2)** approach, fitting a hyperbola to HPMI Capillary Pressure data to derive three key parameters per pore system. This method was the foundation of **Clerke’s (3)** work, which provided a full pore system characterization for the Arab D complex carbonate reservoirs in Saudi Arabia. An interactive Jupyter Notebook for defining the Thomeer parameters is available, although it requires Python's qt and therefore cannot be run in Colab. The notebook and associated data can be downloaded and executed in a local Python environment:
 
