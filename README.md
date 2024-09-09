@@ -16,7 +16,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **b)** Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
 
-*We have used 35 samples from Chicheng's HPMI data for this example. This process runs well, but we need to work on a better error routine to be able to save only the best data if we choose this option. We also need to supply the logic to solve for only a single pore system mu1, sigma1 with w1 = 1.*
+*We have used 35 samples from Chicheng's HPMI data for this example. This process runs well. We have developed a better error routine to save only the best data if this option is chosen. We have the logic to fit a single pore system solving for mu1, sigma1 with w1 = 1, but when employed the results are not as good as with just solving for 2 pore systems. This needs to be studied.*
 
 [Run Alpha Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver8_full_auto_GitHub.ipynb)
 
