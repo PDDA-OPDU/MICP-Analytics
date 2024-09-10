@@ -10,7 +10,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **a)** This method implements the approach proposed by **Xu and Torres-Verdin *(1)***, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
 
-[Run Alpha Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
+[Run Alpha Gaussian Parameter Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
 
 >![image](Gaussian.png)
 
@@ -18,7 +18,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 *We have used 35 samples from Chicheng's HPMI data for this example. This process runs well. We have developed a better error routine to save only the best data if this option is chosen. We have the logic to fit a single pore system solving for mu1, sigma1 with w1 = 1, but when employed the results are not as good as with just solving for 2 pore systems. This needs to be studied.*
 
-[Run Alpha Gaussian Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver9_full_auto_GitHub.ipynb)
+[Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver9_full_auto_GitHub.ipynb)
 
 >![image](Gaussian_Auto_Chicheng.gif)
 
@@ -39,7 +39,7 @@ where the r2 is 0.94.
 
 >![image](Mode_Perm.png)
 
-[Run Alpha Thomeer Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_Chichengs_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_Chicheng_ver2.ipynb)
+[Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_Chichengs_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_Chicheng_ver2.ipynb)
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
 
