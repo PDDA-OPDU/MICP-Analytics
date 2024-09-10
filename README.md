@@ -31,8 +31,15 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 >![image](Thomeer_Parameter_fitting.gif)
 
-**b)** *We will use all of the HPMI data from Chicheng's spreadsheet to run in this Notebook to acquire the Thomeer parameters for each sample in an automated method.*
+**b)** We have also added a Jupyter Notebook to evaluate Chicheng's HPMI data to determine the Thomeer parameters. This is still alpha code, but it does work rather well. After running each sample and saving the results to Excel, we then plot all the data. We have found an excellent correlation of the Mode of the PTD vs. core Permeability. The Mode of the PTD is calculated from the Thomeer parameters:
 
+    Mode of PTD (microns) = exp(-1.15 * G1) * (214/Pd1)/2
+
+where the r2 is 0.94.
+
+>![image](Mode_Perm.png)
+
+[Run Alpha Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_Chichengs_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_Chicheng_ver2.ipynb)
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
 
