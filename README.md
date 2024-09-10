@@ -18,7 +18,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 *We have used 35 samples from Hugoton Field HPMI data for this example. This process runs well. We have developed a better error routine to save only the best data if this option is chosen. We have the logic to fit a single pore system solving for mu1, sigma1 with w1 = 1, but when employed the results are not as good as with just solving for 2 pore systems. This needs to be studied.*
 
-[Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_Chicheng_GitHub/Panel_Bvocc_ver4_optimization_read_Chicheng_ver9_full_auto_GitHub.ipynb)
+[Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Auto_KGS_GitHub/Panel_Bvocc_ver4_optimization_read_KGS_ver9_full_auto_GitHub.ipynb)
 
 >![image](Gaussian_Auto_Chicheng.gif)
 
@@ -31,7 +31,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 >![image](Thomeer_Parameter_fitting.gif)
 
-**b)** We have also added a Jupyter Notebook to evaluate Hugoton Field HPMI data to determine the Thomeer parameters. This is still alpha code, but it does work rather well. After running each sample and saving the results to Excel, we then plot all the data. We have found an excellent correlation of the Mode of the PTD vs. core Permeability. The Mode of the PTD is calculated from the Thomeer parameters:
+**b)** We have also added a Jupyter Notebook to evaluate the KGS data for Hugoton Field's HPMI data to determine the Thomeer parameters. This is still alpha code, but it does work rather well. After running each sample and saving the results to Excel, we then plot all the data. We have found an excellent correlation of the Mode of the PTD vs. core Permeability. The Mode of the PTD is calculated from the Thomeer parameters:
 
     Mode of PTD (microns) = exp(-1.15 * G1) * (214/Pd1)/2
 
@@ -39,7 +39,7 @@ where the r2 is 0.94.
 
 >![image](Mode_Perm.png)
 
-[Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_Chichengs_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_Chicheng_ver2.ipynb)
+[Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_KGS_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver2.ipynb)
 
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
 
