@@ -12,7 +12,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Run Alpha Gaussian Parameter Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab_GEV_CDF.ipynb)
 
->![image](Gaussian.png)
+>![image](Gaussian_CDF_PDF.png)
 
 **b)** Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
 
