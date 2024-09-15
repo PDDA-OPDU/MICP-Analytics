@@ -10,7 +10,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **a)** This method implements the approach proposed by **Xu and Torres-Verdin *(1)***, using a core-based petrophysical rock classification to quantify pore-system orthogonality via a bimodal Gaussian density function. A Jupyter Notebook, ready to be run directly in Google Colab, is available at the following link:
 
-[Run Alpha Gaussian Parameter Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab.ipynb)
+[Run Alpha Gaussian Parameter Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_Clerke_Spreadsheet/Panel_Bvocc_ver6_GitHub_colab_GEV_CDF.ipynb)
 
 >![image](Gaussian.png)
 
@@ -20,11 +20,12 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_KGS_Data_CDF_PDF/CDF_PDF_Distributions_KGS_data.ipynb)
 
->![image](Gaussian_CDF_PDF.gif)
 
 **c)** We are also using a Generalized Extreme Value (GEV) distribution model from SciPy’s genextreme function. The modeled data shows a slight skew with a shape parameter ξ of -0.5 applied to both pore systems. This GEV method aligns well with the typical characteristics of MICP PTD data. The GEV model may offer a more nuanced representation of the pore systems than a pure Gaussian distrubution. 
 
 [Run Alpha Generalized Extreme Value(GEV) method in Auto Version of Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GenExtremeValues_CDF_PDF/GenExtremeValue_CDF_PDF_distributions.ipynb)
+
+>![image](Gaussian_GEV_CDF_PDF.gif)
 
 
 ---
