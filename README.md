@@ -24,7 +24,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **c)** We are also have a Generalized Extreme Value (GEV) distribution model using SciPy’s genextreme function. The modeled data shows a slight skew with a shape parameter ξ of -0.5 applied to both pore systems. This GEV method aligns well with the typical characteristics of MICP PTD data. The GEV model may offer a more nuanced representation of the pore systems.
 
-
+[Run Alpha Generalized Extreme Value(GEV) method in Auto Version of Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GenExtremeValues_CDF_PDF/GenExtremeValue_CDF_PDF_distributions.ipynb)
 
 
 
