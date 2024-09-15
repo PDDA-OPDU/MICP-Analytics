@@ -20,7 +20,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_KGS_Data_CDF_PDF/CDF_PDF_Distributions_KGS_data.ipynb)
 
->![image](Gaussian_Auto_Chicheng.gif)
+>![image](Gaussian_CDF_PDF.gif)
 
 
 **Method 2: Thomeer Hyperbola *(2)*:**
