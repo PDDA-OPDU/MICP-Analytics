@@ -25,7 +25,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Run Alpha Generalized Extreme Value(GEV) method in Auto Version of Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GenExtremeValues_CDF_PDF/GenExtremeValue_CDF_PDF_distributions.ipynb)
 
->![image](Gaussian_GEV_CDF_PDF.png)
+>![image](Gaussian_GEV_CDF_PDF_Thomeer.png)
 
 
 ---
