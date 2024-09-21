@@ -41,7 +41,9 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
     Mode of PTD (microns) = exp(-1.15 * G1) * (214/Pd1)/2
 
-where the r2 is 0.94.
+where the r2 is 0.91.
+
+In summary, each method is capable of predicting a reasonable permeability value from the Capillary Pressure fitting parameters as shown below:
 
 >![image](Mode_Perm.png)
 
