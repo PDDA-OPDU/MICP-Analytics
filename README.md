@@ -14,18 +14,18 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 >![image](Gaussian_CDF_PDF.png)
 
-**b)** Using the same Gaussian Density Function, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
+**b)** Using the same **Gaussian Cumulative Density Function**, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
 
-*We have used 35 samples from Hugoton Field HPMI data for this example. This process runs well. We are working from the Cumulative Density Function to determine the Gaussian parameters to fit the HPMI data and then using the PDF to create a PTD for the samlple.
+*We have used 35 samples from Hugoton Field HPMI data for this example. This process runs well. We are working from the Cumulative Density Function to determine the Gaussian parameters to fit the HPMI data and then using the PDF to create a PTD for each sample.
 
 [Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_KGS_Data_CDF_PDF/CDF_PDF_Distributions_KGS_data.ipynb)
 
 
-**c)** We are also using a Generalized Extreme Value (GEV) distribution model from SciPy’s genextreme function. The modeled data shows a slight skew with a shape parameter ξ of -0.5 applied to both pore systems. This GEV method aligns well with the typical characteristics of MICP PTD data. The GEV model may offer a more nuanced representation of the pore systems than a pure Gaussian distrubution. 
+**c)** We are also using a **Generalized Extreme Value (GEV) Distribution** model from SciPy’s genextreme function. The modeled data shows a slight skew with a shape parameter ξ of -0.5 applied to both pore systems. This GEV method aligns well with the typical characteristics of MICP PTD data. The GEV model may offer a more nuanced representation of the pore systems than a pure Gaussian distrubution. 
 
 [Run Alpha Generalized Extreme Value(GEV) method in Auto Version of Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GenExtremeValues_CDF_PDF/GenExtremeValue_CDF_PDF_distributions.ipynb)
 
-We have revised our original GEV code to be a bit more transparent and eliminating the re-sorting of the Gaussian fit parameters. This is still in testing. 
+We have **revised our original GEV** code to be a bit more transparent and eliminating the re-sorting of the Gaussian fit parameters. This is still in testing. 
 
 [Slightly revised GEV code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort/GenExtremeValue_CDF_PDF_distributions_nosort.ipynb)
 
