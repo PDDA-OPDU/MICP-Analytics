@@ -25,11 +25,11 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Run Alpha Generalized Extreme Value(GEV) method in Auto Version of Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GenExtremeValues_CDF_PDF/GenExtremeValue_CDF_PDF_distributions.ipynb)
 
-We have **revised our original GEV** code to be a bit more transparent and eliminating the re-sorting of the Gaussian fit parameters. This is still in testing. 
+**c.i)** We have **revised our original GEV** code to be a bit more transparent and eliminating the re-sorting of the Gaussian fit parameters. This is still in testing. 
 
 [Slightly revised GEV code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort/GenExtremeValue_CDF_PDF_distributions_nosort.ipynb)
 
-We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
+**c.ii)** We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
 
 [GEV Analysis of Costa Field Samples](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_Costa/GenExtremeValue_CDF_PDF_distributions_nosort_Costa.ipynb)
 
