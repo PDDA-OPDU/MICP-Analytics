@@ -31,7 +31,7 @@ We have **revised our original GEV** code to be a bit more transparent and elimi
 
 We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
 
-[GEV Analysis of Costa Samples)(https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_Costa/GenExtremeValue_CDF_PDF_distributions_nosort_Costa.ipynb)
+[GEV Analysis of Costa Field Samples](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_Costa/GenExtremeValue_CDF_PDF_distributions_nosort_Costa.ipynb)
 
 
 >![image](Gaussian_GEV_CDF_PDF_Thomeer.png)
