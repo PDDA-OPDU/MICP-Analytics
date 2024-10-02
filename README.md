@@ -29,7 +29,11 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Slightly revised GEV code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort/GenExtremeValue_CDF_PDF_distributions_nosort.ipynb)
 
-**c.ii)** We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
+**c.ii)** We can also work with [BVW](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BVW/GenExtremeValue_CDF_PDF_distributions_nosort_BVW.ipynb):
+
+>![image](BVW.png)
+
+**c.iii)** We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
 
 [GEV Analysis of Costa Field Samples](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_Costa/GenExtremeValue_CDF_PDF_distributions_nosort_Costa.ipynb)
 
