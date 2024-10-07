@@ -64,6 +64,10 @@ In summary, each method is capable of predicting a reasonable permeability value
 
 [Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_KGS_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3.ipynb)
 
+We have also tested the Buiting-Clerke Permeability method (7) that employs a Laplace transormation on the BV function.
+
+[Buiting-Clerke Permeability Method](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Parameters_KGS_BuitingClerke_Perm/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3_Buiting_ver2.ipynb)
+
 ---
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
 
@@ -80,3 +84,5 @@ In summary, each method is capable of predicting a reasonable permeability value
 4.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008.
 5.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
 6. Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, https://doi.org/10.1144/petgeo2021-067
+7. J.J.M. Buiting, E.A. Clerke, Permeability from porosimetry measurements: Derivation
+for a tortuous and fractal tubular bundle, Journal of Petroleum Science and Engineering 108 (2013) 267–278.
