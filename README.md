@@ -68,7 +68,7 @@ We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace t
 
 [Buiting-Clerke Permeability Method](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Parameters_KGS_BuitingClerke_Perm/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3_Buiting_ver2.ipynb)
 
->![image](BC_Perms.png)
+>![image](BV_Perms.png)
 
 ---
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
