@@ -29,11 +29,15 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Slightly revised GEV code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort/GenExtremeValue_CDF_PDF_distributions_nosort.ipynb)
 
-**c.ii)** We can also work with [BVW](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BVW/GenExtremeValue_CDF_PDF_distributions_nosort_BVW.ipynb):
+**c.ii)** We also added the Buiting-Clerke Permeability method (7) that uses a Laplace transformation of the BV function with our GEV method to compute permeability with an R2 of 0.92 when compared to the KGS measured permeabilities. This is the [code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/GenExtremeValue_CDF_PDF_distributions_nosort_BuitingClerke.ipynb).
+
+>![BC_perm](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/Perm_BC.png)
+
+**c.iii)** We can also work with [BVW](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BVW/GenExtremeValue_CDF_PDF_distributions_nosort_BVW.ipynb):
 
 >![image](BVW.png)
 
-**c.iii)** We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
+**c.iv)** We now have an additional 95 samples from the Costa Field (6) Carbonate Field data:
 
 [GEV Analysis of Costa Field Samples](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_Costa/GenExtremeValue_CDF_PDF_distributions_nosort_Costa.ipynb)
 
@@ -64,7 +68,7 @@ In summary, each method is capable of predicting a reasonable permeability value
 
 [Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_KGS_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3.ipynb)
 
-We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace transformation of the BV function to computer permeability with an R2 of 0.95 when compared to the KGS measured permeabilities. 
+We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace transformation of the BV function to compute permeability with an R2 of 0.95 when compared to the KGS measured permeabilities. 
 
 [Buiting-Clerke Permeability Method](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Parameters_KGS_BuitingClerke_Perm/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3_Buiting_ver2.ipynb)
 
