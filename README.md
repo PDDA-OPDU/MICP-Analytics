@@ -31,6 +31,20 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 **c.ii)** We also added the Buiting-Clerke Permeability method (7) that uses a Laplace transformation of the BV function with our GEV method to compute permeability with an R2 of 0.92 when compared to the KGS measured permeabilities. 
 
+```python
+    '''Buiting-Clerke's Perms'''
+    Dlambda = 1.56
+    LLd      = 0.5
+
+    # Calculate BVfun for each element in Pc
+    BVfun     = np.where(Pc >= Pc_at_first_increase, BVocc_est * np.exp(-(2 * Dlambda) * np.log(Pc))   , 0.00)
+    BVfun_sum = np.sum(BVfun)
+    
+    Constant  = ((np.exp((-2*(1 - Dlambda))*np.log(Pc_at_first_increase)))*(Dlambda/4))*LLd**2
+    Ksi       = 107               # ξ =   2[sigma * cos(θ)]Hg–Air ≈ 734 dyn/cm = 107 psi μm)
+    Perm_BC   = BVfun_sum * Constant * Ksi**2
+```
+
 [GEV Code with Buiting-Clerke Permeability](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/GenExtremeValue_CDF_PDF_distributions_nosort_BuitingClerke.ipynb).
 
 >![BC_perm](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/Perm_BC.png)
