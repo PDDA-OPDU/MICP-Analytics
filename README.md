@@ -29,7 +29,9 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Slightly revised GEV code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort/GenExtremeValue_CDF_PDF_distributions_nosort.ipynb)
 
-**c.ii)** We also added the Buiting-Clerke Permeability method (7) that uses a Laplace transformation of the BV function with our GEV method to compute permeability with an R2 of 0.92 when compared to the KGS measured permeabilities. This is the [code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/GenExtremeValue_CDF_PDF_distributions_nosort_BuitingClerke.ipynb).
+**c.ii)** We also added the Buiting-Clerke Permeability method (7) that uses a Laplace transformation of the BV function with our GEV method to compute permeability with an R2 of 0.92 when compared to the KGS measured permeabilities. 
+
+[GEV Code with Buiting-Clerke Permeability](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/GenExtremeValue_CDF_PDF_distributions_nosort_BuitingClerke.ipynb).
 
 >![BC_perm](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort_BuitingClerke_Perm/Perm_BC.png)
 
