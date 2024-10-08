@@ -29,7 +29,7 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 
 [Slightly revised GEV code](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_GEV_CDF_PDF_nosort/GenExtremeValue_CDF_PDF_distributions_nosort.ipynb)
 
-**c.ii)** We also added the Buiting-Clerke Permeability method (7) that uses a Laplace transformation [they say it is ...(exp(-2*(1-Dlambda)?] of the BV function with our GEV method to compute permeability with an R2 of 0.92 when compared to the KGS measured permeabilities. There is a good correlation of the area under the BVfun curve to permeability, so parts of this sound reasonable. 
+**c.ii)** We also added the Buiting-Clerke Permeability method (7) that uses a Laplace transformation [they say it is ...(exp(-2*(1-Dlambda)?] of the BV function with our GEV method to compute permeability with an R2 of 0.92 when compared to the KGS measured permeabilities. There is a very strong correlation of the area under the BVfun curve to permeability (0.95+), so parts of this sound reasonable. 
 
 ```python
     '''Buiting-Clerke's Perms'''
@@ -84,7 +84,7 @@ In summary, each method is capable of predicting a reasonable permeability value
 
 [Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_KGS_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3.ipynb)
 
-We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace (they say it is ...(exp(-2*(1-Dlambda)]?) transformation of the BV function to compute permeability with an R2 of 0.95 when compared to the KGS measured permeabilities. There is a good correlation of the area under the BVfun curve to permeability, so parts of this sound reasonable. 
+We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace (they say it is ...(exp(-2*(1-Dlambda)]?) transformation of the BV function to compute permeability with an R2 of 0.95 when compared to the KGS measured permeabilities. There is a very strong correlation of the area under the BVfun curve to permeability (0.95+), so parts of this sound reasonable. 
 
 [Thomeer Code with Buiting-Clerke Permeability](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Parameters_KGS_BuitingClerke_Perm/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3_Buiting_ver2.ipynb)
 
