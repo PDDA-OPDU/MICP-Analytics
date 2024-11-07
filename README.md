@@ -89,6 +89,13 @@ We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace (
 [Thomeer Code with Buiting-Clerke Permeability](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Parameters_KGS_BuitingClerke_Perm/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3_Buiting_ver2.ipynb)
 
 >![image](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Parameters_KGS_BuitingClerke_Perm/Perm_BC.png)
+
+We have also studied the works of Buiting and Clerke (7,8) that is used to upscale the Capillary Pressure data and Permeability based in uncertainty in the intial displacement pressure Pd and Geometric factor G as shown below:
+
+>![image]([Mode_Perm.png](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Upscaled_Pc_Perm_BVfun.gif))
+
+The inital code for this can be found at this [link](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Upscaled_BVocc_BC_Perm/SatHg_LinkedIn.ipynb).
+
 ---
 **Example of a Comprehensive MICP-Analytics Assessment of Data:**
 
@@ -105,5 +112,6 @@ We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace (
 4.  Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October 2008.
 5.  Phillips, E. C., Buiting, J. M., Clerke, E. A, “Full Pore System Petrophysical Characterization Technology for Complex Carbonate Reservoirs – Results from Saudi Arabia”, AAPG, 2009 Extended Abstract.
 6. Costa Gomes J, Geiger S, Arnold D. The Design of an Open-Source Carbonate Reservoir Model. Petroleum Geoscience, https://doi.org/10.1144/petgeo2021-067
-7. J.J.M. Buiting, E.A. Clerke, Permeability from porosimetry measurements: Derivation
+7. J.J.M. Buiting, Fully Upscaled Saturation-Height Functions for Reservoir Modeling Based on Thomeer's Method for Analyzing Capillary Pressure Measurements, SPE Paper 105139, 2007.
+8. J.J.M. Buiting, E.A. Clerke, Permeability from porosimetry measurements: Derivation
 for a tortuous and fractal tubular bundle, Journal of Petroleum Science and Engineering 108 (2013) 267–278.
