@@ -92,7 +92,7 @@ We also provide the Buiting-Clerke Permeability method (7) that uses a Laplace (
 
 We have also studied the works of Buiting and Clerke (7,8) that is used to upscale the Capillary Pressure data and Permeability based in uncertainty in the intial displacement pressure Pd and Geometric factor G as shown below:
 
->![image]([Mode_Perm.png](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Upscaled_Pc_Perm_BVfun.gif))
+>![image](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Upscaled_Pc_Perm_BVfun.gif))
 
 The inital code for this can be found at this [link](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Upscaled_BVocc_BC_Perm/SatHg_LinkedIn.ipynb).
 
