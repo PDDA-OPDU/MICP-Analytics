@@ -24,10 +24,6 @@ We have also added a Jupyter Notebook to evaluate the KGS data for Hugoton Field
 
 where the r2 is 0.91.
 
-In summary, each method is capable of predicting a reasonable permeability value from the Capillary Pressure fitting parameters as shown below:
-
->![image](Mode_Perm.png)
-
 [Run Alpha Thomeer Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Thomeer_Param_from_KGS_Data/Panel_Bvocc_Thomeer_Parameters_optimization_read_KGS_ver3.ipynb)
 
 
