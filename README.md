@@ -8,9 +8,9 @@ Welcome to the **Open Petro Data and Utilities (OPDU)** repository, featuring **
 ---
 **Method 1: Gaussian Density Function *(1)*:**
 
-Using the same **Gaussian Cumulative Density Function**, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots (if this option is turned on).
+Using a **Gaussian Cumulative Density Function**, we offer a fully automated Jupyter Notebook that reads in multiple HPMI samples from a single spreadsheet and processes each sample, one at a time, saving both the Gaussian fit parameters and Plots.
 
-*We have used 35 samples from Hugoton Field HPMI data for this example. This process runs well. We are working from the Cumulative Density Function to determine the Gaussian parameters to fit the HPMI data and then using the PDF to create a PTD for each sample.
+We have used 35 samples from Hugoton Field HPMI data for this example. This process runs well. We are working from the Cumulative Density Function to determine the Gaussian parameters to fit the HPMI data and then using the PDF function to create a PTD for each sample.
 
 [Run Alpha Gaussian Parameter Auto Version in Google Colab](https://github.com/PDDA-OPDU/MICP-Analytics/blob/main/Gaussian_KGS_Data_CDF_PDF/CDF_PDF_Distributions_KGS_data.ipynb)
 
@@ -19,7 +19,7 @@ Using the same **Gaussian Cumulative Density Function**, we offer a fully automa
 ---
 **Method 2: Thomeer Hyperbola *(2)*:**
 
-We have also added a Jupyter Notebook to evaluate the KGS data for Hugoton Field's HPMI data to determine the Thomeer parameters. This is still alpha code, but it does work rather well. After running each sample and saving the results to Excel, we then plot all the data. We have found an excellent correlation of the Mode of the PTD vs. core Permeability. The Mode of the PTD is calculated from the Thomeer parameters:
+We have also added a Jupyter Notebook to evaluate the KGS data for Hugoton Field's HPMI data to determine the Thomeer parameters from the HPMI data. This is still alpha code, but it does work rather well. After running each sample and saving the results to Excel, we then plot all the data in search of correlations. We have found an excellent correlation of the Mode of the PTD vs. core Permeability. The Mode of the PTD is calculated from the Thomeer parameters:
 
     Mode of PTD (microns) = exp(-1.15 * G1) * (214/Pd1)/2
 
